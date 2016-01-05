@@ -1,0 +1,28 @@
+<html ng-app="MyApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1" />
+    <link rel="shortcut icon" href="img/faviconn.png">
+
+    <!----Scripts and css---->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="bower_components/font-awesome/css/font-awesome.min.css"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/main.css">
+    
+    <title>Mohit-Blog</title>
+</head>
+<body>
+    <div ng-controller="AppCtrl">
+        <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <span ng-repeat="items in NavItems">{{items.text}}</span>
+    </div>
+  </div>
+</nav>
+    </div> 
+    <script src="js/app.js"></script>
+</body>
+</html>

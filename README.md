@@ -1,2 +1,2 @@
 # My-Blog
-Portfolio and blog using Angular and various technologiess
+Portfolio and blog using Angular and various technologies

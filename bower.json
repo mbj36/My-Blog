@@ -1,0 +1,10 @@
+{
+  "name": "MyApp",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular-bootstrap": "~0.14.3",
+    "angular": "~1.4.8",
+    "fontawesome": "~4.5.0"
+  },
+  "private": true
+}
