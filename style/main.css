@@ -1,7 +1,12 @@
+body
+{
+    background-color:#FAFAFA;
+}
 .navbar-header
 {
     color:#fff;
     padding: 20px;
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
 .navbar-default
 {
@@ -14,4 +19,34 @@
 .btn-default
 {
     margin-left: 180px;
+}
+.author
+{
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    margin-left: 15%;
+}
+.footer-center
+{
+    margin-left: 20%;
+}
+.footer-right
+{
+    margin-left: 18%;
+}
+a
+{
+    color: #333333;
+}
+    
+@media only screen and (max-width:1260px)
+{
+    .navbar-default
+    {
+        height: 150px;
+    }
+    .btn-default
+    {
+        margin:8px 8px 8px 8px;
+        padding: 10px;
+    }
 }

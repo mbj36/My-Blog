@@ -6,23 +6,51 @@
 
     <!----Scripts and css---->
     <script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
-    <script src="bower_components/font-awesome/css/font-awesome.min.css"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/main.css">
     
     <title>Mohit-Blog</title>
 </head>
 <body>
+    <!-----header---->
     <div ng-controller="AppCtrl">
         <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-        <span ng-repeat="items in NavItems"><button type="button" class="btn btn-default">{{ items.text }} </button> </span>
+        <span ng-repeat="items in NavItems">
+            <button type="button" class="btn btn-default">
+                  <i class="{{items.class}} " ng-href="{{ items.url }}"></i>  {{ items.text }}
+            </button>
+        </span>
     </div>
   </div>
 </nav>
-    </div> 
+    </div>
+    <!-----footer---->
+    <div>
+        <hr>
+    <span class="author">&#169; 2016
+        <a href="https://github.com/mbj36">Mohit <span hide-sm>Kumar Bajoria</span></a>
+        </span>
+        <span class="footer-center">
+        <i class="fa fa-windows fa-2x"></i>
+        <i class="fa fa-code fa-2x"></i>
+        <i class="fa fa-linux fa-2x"></i>
+        </span>
+        <span class="footer-right">
+        <a href="https://github.com/mbj36/My-Blog">Source</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="mailto:mohitbajo36@gmail.com">Contact</a>
+        </span>
+        <hr>
+        
+    
+    </div>
+    
+  
     <script src="js/app.js"></script>
 </body>
 </html>
