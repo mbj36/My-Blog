@@ -1,10 +1,17 @@
 .navbar-header
 {
     color:#fff;
+    padding: 20px;
 }
 .navbar-default
 {
-   background-color:#808080;
+   background-color: #4C4C78;
    height: 80px;
-    
+   border-bottom-color: #fff;
+   border-radius: 8px;
+
+}
+.btn-default
+{
+    margin-left: 180px;
 }
