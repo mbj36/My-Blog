@@ -1,4 +1,4 @@
-body
+body, html
 {
     background-color:#FAFAFA;
 }
@@ -29,13 +29,17 @@ body
 {
     margin-left: 20%;
 }
-.footer-right
+.right
 {
     margin-left: 18%;
 }
 a
 {
     color: #333333;
+}
+a:hover
+{
+    text-decoration: none;
 }
     
 @media only screen and (max-width:1260px)
@@ -49,4 +53,22 @@ a
         margin:8px 8px 8px 8px;
         padding: 10px;
     }
+    .author
+    {
+        position: absolute;
+        margin-top: -20px;
+        margin-left: 35px
+    }
+    .footer-center
+    {
+        margin-left: 110px;
+    }
+    .right
+    {
+        line-height: 2em;
+        margin-left: -90px;
+        position: absolute;
+        margin-top: 14px;
+    }
+    
 }

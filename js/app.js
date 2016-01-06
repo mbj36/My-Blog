@@ -1,7 +1,9 @@
-var app=angular.module("MyApp",['ui.bootstrap','ngRoute']);
-app.constant('config', {
-    baseUrl : 'http://127.0.0.1:61368/index.html'
+var app=angular.module("MyApp",['ui.bootstrap','ngRoute','angular-timeline','ngMaterial']);
+angular.module('MyApp').constant('config', {
+    baseUrl : 'http://127.0.0.1:61368/index.html',  // Baseurl to load site resources
+    loadDelay : 250             // Min. delay before sending data load requests
 });
+
 app.config(function($routeProvider)
 {
 	$routeProvider
