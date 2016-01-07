@@ -1,16 +1,30 @@
+/**
+ * Created by praveen on 14.09.15.
+ */
 
+angular.module('MyApp').controller('AcadCtrl', function($scope, $timeout, config, $http) {
+    $scope.studies = null;
+    $scope.ready = 0;
 
-angular.module('MyApp').controller('AcadCtrl', function($scope) {
-      // in controller
-  $scope.events = [{
-    badgeClass: 'info',
-    badgeIconClass: 'glyphicon-check',
-    title: 'First heading',
-    content: 'Some awesome content.'
-  }, {
-    badgeClass: 'warning',
-    badgeIconClass: 'glyphicon-credit-card',
-    title: 'Second heading',
-    content: 'More awesome content.'
-  }];
-    });
+    // Get works info
+    $scope.loadData = function(){
+        var req = {
+            method: 'GET',
+            url: 'data/academics.json'
+        };
+        $http(req)
+            .then(
+            function (response) { // Success callback
+                $scope.studies = response.data;
+                $scope.ready = 1;
+            },
+            function (response) { //Error callback
+                console.log(response.toString());
+            }
+        );
+    };
+
+    // Delayed call to avoid navbar freeze on close
+    $timeout($scope.loadData, config.loadDelay);
+
+});

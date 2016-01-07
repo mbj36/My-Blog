@@ -1,0 +1,23 @@
+[
+  {
+    "year": "Now",
+    "degree": "Bachelors in Computer Science & Engineering",
+    "school": "Shri Mata Vaishno Devi University",
+    "place" : "Jammu, India",
+    "duration" : "August 2014 - Present"
+  },
+  {
+    "year": "2014",
+    "degree": "Higher Secondary School",
+    "school": "Adwaita Mission High School",
+    "place" : "Bhagalpur, India",
+    "duration" : "2012 - 2014"
+  },
+  {
+    "year": "2012",
+    "degree": "Secondary School",
+    "school": "Saint Paul's School",
+    "place" : "Bhagalpur, India",
+    "duration" : "2000 - 2012"
+  }
+]
