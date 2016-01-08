@@ -84,6 +84,29 @@ a:hover
     line-height:25px;
     font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
+.timeline-badge
+{
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.tech
+{
+    display:inline-block;
+    position: relative;
+    left:60px;
+    top: -10px;
+}
+.text-muted
+{
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.link-center
+{
+    position:relative;
+    left: 170px;
+    margin: 10px;
+}
+
+    
 @media only screen and (max-width:1260px)
 {
     .navbar-default
@@ -100,6 +123,7 @@ a:hover
     {
         position:relative;
         margin-left: -40px;
+        
     }
     .author
     {
@@ -115,6 +139,29 @@ a:hover
         left: 26px;
         font-family: cursive;
     }
+    .timeline-heading
+    {
+        position: relative;
+        left: -30px;
+    }
+    .tech
+    {
+        position: relative;
+        left: -25px;
+        line-height: 3;
+    }
+    .link-center
+    {
+        position: relative;
+        left: 20;
+    }
+    #text
+    {
+        position: relative;
+        right:16%;
+        
+    }
+        
     
     
     

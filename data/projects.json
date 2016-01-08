@@ -1,26 +1,52 @@
 [
   {
-    "heading": "svhsvvhbvh",
-    "degree": "Bachelors in Computer Science & Engineering",
-    "school": "Shri Mata Vaishno Devi University",
-    "place" : "Jammu, India",
-    "duration" : "August 2014 - Present",
+    "img"    : "img/sac.jpg",
+    "heading": "Students Affairs Council (SAC) Website",
+    "year"   : "2015",
+    "description":"The Students Affairs Council is the apex student body of SMVDU",
+    "tech"   :["HTML","CSS","JS","Jquery"],
+    "links": [
+      {
+        "iconClass": "fa-github",
+        "url": "https://github.com/mbj36/sac-website"
+      }
+    ],  
     "timeline" : " "  
   },
   {
-    "heading": "shjsvhv",
-    "degree": "Higher Secondary School",
-    "school": "Adwaita Mission High School",
-    "place" : "Bhagalpur, India",
-    "duration" : "2012 - 2014",
+    "img"    :"img/exam.jpeg", 
+    "heading": "Exam-Baba",
+    "year"   : "2015",
+    "description":"Ex@m baba is for the B.Tech student of the shri mata vaishno devi university.It contains Previous Year Question papers.",
+    "tech"   :["HTML","CSS","JS","Bootstrap","Jquery"],
+    "links": [
+      {
+        "iconClass": "fa-github",
+        "url": "https://github.com/exambaba/exambaba.github.io"
+      },
+        {
+            "iconClass":"fa-globe",
+            "url":"http://exambaba.github.io/"
+        }
+    ],  
     "timeline" :"inverted"  
   },
   {
-    "heading": "hbvjbvhsb",
-    "degree": "Secondary School",
-    "school": "Saint Paul's School",
-    "place" : "Bhagalpur, India",
-    "duration" : "2000 - 2012",
-    "timeline" : " "  
+    "img"    :"img/favicon.ico",  
+    "heading": "Software Freedom Day (SFD) Website",
+    "year"   : "2015",
+    "description":"Software Freedom Day is an technical event celebrated yearly at SMVDU", 
+    "tech"   :["AngularJS","Web","Bootstrap","HTML","CSS"],
+    "links": [
+      {
+        "iconClass": "fa-github",
+        "url": "https://github.com/mbj36/sfd-smvdu"
+      },
+        {
+            "iconClass":"fa-globe",
+            "url":"http://sfd.smvdu.net.in/#/"
+        }
+    ],    
+    "timeline" : ""  
   }
 ]

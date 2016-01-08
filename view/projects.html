@@ -1,20 +1,28 @@
 <div class="container">
     <ul class="timeline">
         <li ng-repeat="project in projects" class="timeline-{{project.timeline }}">
-          <div class="timeline-badge">{{study.year}}</div>
-          <div class="timeline-panel">
-            <div class="timeline-body">
-                <ul>
-                    <div class="timeline-heading">{{ project.heading }}</div>
-                    <p class="timeline-design">
-                        <i class="fa fa-graduation-cap fa-fw"></i> <b>{{ study.degree }}</b></br>
-                <i class="fa fa-university fa-fw"></i> {{ study.school }} </br>
-                <i class="fa fa-map-marker fa-fw"></i> {{ study.place }}</br>
-              <i class="fa fa-clock-o fa-fw"></i> {{ study.duration }}  
-        </p>
+            <div class="timeline-badge">{{project.year}}</div>
+            <div class="timeline-panel">
+                <div class="timeline-body">
+                    <ul>
+                        <div class="timeline-heading">
+                            <img src="{{ project.img }}" height="50px" width="50px" class="img-circle">                                                                 <b>&nbsp;&nbsp;&nbsp;&nbsp; {{ project.heading }}</b>
+                        </div>
+                        <p class="timeline-design">
+                        <div class="tech" ng-repeat="tech in project.tech">&nbsp;&nbsp;
+                            <button type="button" class="btn btn-disabled btn-sm"><span class="text-muted"> {{tech}}</span>
+                            </button>
+                        </div></br>
+                    <span class="text-muted" id="text"><i class="fa fa-book"></i> {{project.description}}</span>
+                    <div ng-repeat="link in project.links" class="link-center">
+                        <a href="{{ link.url }}" target="_blank"><i class="fa {{link.iconClass}} fa-2x"></i></a>
+                    </div>
+                    </p>
                 </ul>
-            </div>
-          </div>
-        </li>
+
+        </div>
+    </li>
+</div>
     </ul>
 </div>
+
