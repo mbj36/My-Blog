@@ -1,0 +1,20 @@
+<div class="container">
+    <ul class="timeline">
+        <li ng-repeat="project in projects" class="timeline-{{project.timeline }}">
+          <div class="timeline-badge">{{study.year}}</div>
+          <div class="timeline-panel">
+            <div class="timeline-body">
+                <ul>
+                    <div class="timeline-heading">{{ project.heading }}</div>
+                    <p class="timeline-design">
+                        <i class="fa fa-graduation-cap fa-fw"></i> <b>{{ study.degree }}</b></br>
+                <i class="fa fa-university fa-fw"></i> {{ study.school }} </br>
+                <i class="fa fa-map-marker fa-fw"></i> {{ study.place }}</br>
+              <i class="fa fa-clock-o fa-fw"></i> {{ study.duration }}  
+        </p>
+                </ul>
+            </div>
+          </div>
+        </li>
+    </ul>
+</div>

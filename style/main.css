@@ -75,40 +75,47 @@ a:hover
 .year-2010{
     background-color: #FEC006 !important;
 }
-.year-2008{
-    background-color: #F34235 !important;
-}
 #timeline
 {
     text-align: center;
+}
+.timeline-design
+{
+    line-height:25px;
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
 @media only screen and (max-width:1260px)
 {
     .navbar-default
     {
-        height: 150px;
+        height: 250px;
+        padding: 25px;
     }
     .btn-default
     {
-        margin:8px 8px 8px 8px;
-        padding: 10px;
+        position:relative;
+        margin-left: 20%;
+    }
+    .timeline-design
+    {
+        position:relative;
+        margin-left: -40px;
     }
     .author
     {
-        position: absolute;
-        margin-top: -20px;
-        margin-left: 35px
+        position:relative;
+        left: -20px;
+        font-family: cursive;
     }
-    .footer-center
+    #right
     {
-        margin-left: 110px;
+        word-spacing: 2px;
+        line-height: 3;
+        position: relative;
+        left: 26px;
+        font-family: cursive;
     }
-    .right
-    {
-        line-height: 2em;
-        margin-left: -90px;
-        position: absolute;
-        margin-top: 14px;
-    }
+    
+    
     
 }

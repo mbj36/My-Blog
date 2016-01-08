@@ -5,10 +5,12 @@
           <div class="timeline-panel">
             <div class="timeline-body">
                 <ul>
-                <li>{{ study.degree }}</li>
-                <li>{{ study.school }}</li> 
-                <li>{{ study.place }}</li>
-                <li>{{ study.duration }}</li>    
+                    <p class="timeline-design">
+                        <i class="fa fa-graduation-cap fa-fw"></i> <b>{{ study.degree }}</b></br>
+                <i class="fa fa-university fa-fw"></i> {{ study.school }} </br>
+                <i class="fa fa-map-marker fa-fw"></i> {{ study.place }}</br>
+              <i class="fa fa-clock-o fa-fw"></i> {{ study.duration }}  
+        </p>
                 </ul>
             </div>
           </div>
