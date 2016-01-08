@@ -1,7 +1,3 @@
-/**
- * Created by praveen on 14.09.15.
- */
-
 angular.module('MyApp').controller('AcadCtrl', function($scope, $timeout, config, $http) {
     $scope.studies = null;
     $scope.ready = 0;

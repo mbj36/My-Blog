@@ -5,18 +5,12 @@
     <link rel="shortcut icon" href="img/faviconn.png">
 
     <!----Scripts and css---->
-    <script src="bower_components/angular/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
-    <script src="bower_components/angular-timeline/dist/angular-timeline.css"></script>   
-    <script src="bower_components/angular-timeline/dist/angular-timeline.js"></script>    
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css">   
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bower_components/angular-timeline/dist/angular-timeline-bootstrap.css">
-    <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/angular-timeline/dist/angular-timeline.css"></script>   
+    <link rel="stylesheet" href="bower_components/angular-timeline/dist/angular-timeline-bootstrap.css">
     <link rel="stylesheet" href="style/main.css">
-    
     <title>Mohit-Blog</title>
     </head>
     <body>
@@ -35,11 +29,7 @@
             </nav>
         </div>
         <!---content----->
-        <div flex layout="row" layout-align="center center">
-            <div ng-view flex="80" layout="column">
-                <noscript style="text-align:center;">You Must Enable your javascript!</noscript>
-            </div>
-        </div>
+        <div ng-view></div>
         <!-----footer---->
         <div>
             <hr>
@@ -52,7 +42,7 @@
                 <i class="fa fa-linux"></i>
             </span>
             
-            <span class="right">
+            <span id="right" class="text-muted">
                 <a href="https://github.com/mbj36/My-Blog">Source</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="mailto:mohitbajo36@gmail.com">Contact</a>
             </span>
@@ -60,10 +50,16 @@
         </div>
     
   
-    <script src="js/app.js"></script>
-    <script src="js/academics.js"></script>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.js"></script>    
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>            
+  <script src="bower_components/angular-timeline/dist/angular-timeline.js"></script> 
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/academics.js"></script>  
 </body>
 </html>
