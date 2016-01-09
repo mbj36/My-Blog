@@ -13,8 +13,6 @@ body, html
    background-color: #4C4C78;
    height: 80px;
    border-bottom-color: #fff;
-   border-radius: 8px;
-
 }
 .btn-default
 {
@@ -105,8 +103,54 @@ a:hover
     left: 170px;
     margin: 10px;
 }
-
+.toolbar-design
+{
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 21%;
+}
+.max-content-width
+{
+    max-width: 700px;
+    position: relative;
+    left: 24%;   
+}
+md-card
+{
+    background-color:#4C4C78 !important;
+}
+#profile-name
+{
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
     
+}
+#profile-img {
+     width: 180px;
+     height: 180px;
+     border-radius: 150px;
+     -webkit-border-radius: 150px;
+     -moz-border-radius: 150px;
+}
+#icon-color
+{
+    color: #fff;
+}
+.middle
+{
+    max-width: 700px;
+    position: relative;
+    left: 24.5%;
+    box-shadow:0px 0px 1px 0px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #fff;
+}
 @media only screen and (max-width:1260px)
 {
     .navbar-default
@@ -160,6 +204,12 @@ a:hover
         position: relative;
         right:16%;
         
+    }
+    .toolbar-design
+    {
+        width: 100%;
+        position: relative;
+        left: 0;
     }
         
     
