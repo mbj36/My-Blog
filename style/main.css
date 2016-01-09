@@ -6,6 +6,8 @@ body, html
 {
     color:#fff;
     padding: 20px;
+    display:flex;
+    position: relative;
     font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
 .navbar-default
@@ -16,7 +18,7 @@ body, html
 }
 .btn-default
 {
-    margin-left: 180px;
+    margin-left: 160px;
 }
 .author
 {
@@ -47,31 +49,10 @@ a:hover
 {
     max-width: 1000px;
 }
-.project-icon,.work-icon{
+.project-icon,work-icon{
     max-width: 50px;
     max-height: 50px;
     margin-right: 10px;
-}
-.year-Now{
-    background-color: #4BAE4F !important;
-}
-.year-2015{
-    background-color: #3E50B4 !important;
-}
-.year-2014{
-    background-color: #02A8F3 !important;
-}
-.year-2013{
-    background-color: #F34235 !important;
-}
-.year-2012{
-    background-color: #5F7C8A !important;
-}
-.year-2011{
-    background-color: #FEC006 !important;
-}
-.year-2010{
-    background-color: #FEC006 !important;
 }
 #timeline
 {
@@ -170,19 +151,23 @@ table
     word-spacing: 7;
     padding: 3;
 }
-    
-@media only screen and (max-width:1260px)
+@media screen and (max-width:900px)
 {
+    .navbar-header
+    {
+        display: block;
+    }
     .navbar-default
     {
-        height: 40%;
-        padding: 20px;
+        height: 50%;
+        padding: 1px;
     }
     .btn-default
     {
         position:relative;
-        margin-left: 20%;
-        padding: 10px;
+        padding: 8px;
+        margin-left: 2;
+        
     }
     .timeline-design
     {
@@ -235,14 +220,14 @@ table
     md-card
 {
     position: relative;
-    margin-left: -48px;
-    margin-right: 80px;
+    margin-left: -20%;
+    margin-right: 27%;
 }
      md-card-content
 {
     position: relative;
-    margin-left: -50px;
-    margin-right: 68px;
+    margin-left: -20%;
+    margin-right: 28%;
 }
         
     
