@@ -17,5 +17,32 @@
       "icon": "fa-github-square",
       "url": "https://github.com/mbj36"
     }
-  ]
+  ],
+    "skillsets": [
+    {
+      "type": "Platforms",
+      "icon": "fa-rocket",
+      "skills": ["Windows"]
+    },
+    {
+      "type": "Languages",
+      "icon": "fa-language",
+      "skills": ["C","C++","Python","Javascript"]
+    },
+    {
+      "type": "Web",
+      "icon": "fa-firefox",
+      "skills": ["HTML","CSS3","AngularJS","Bootstrap","Jquery"]
+    },
+    {
+      "type": "Databases",
+      "icon": "fa-database",
+      "skills": ["SQL"]
+    },
+    {
+      "type": "Tools & Packages",
+      "icon": "fa-cogs",
+      "skills": ["Git","Jekyll","Brackets","SublimeText","Codeblocks"]
+    }
+]
 }

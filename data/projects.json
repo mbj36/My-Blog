@@ -21,7 +21,7 @@
     "tech"   :["HTML","CSS","JS","Bootstrap","Jquery"],
     "links": [
       {
-        "iconClass": "fa-github",
+        "iconClass": "fa-github-alt",
         "url": "https://github.com/exambaba/exambaba.github.io"
       },
         {

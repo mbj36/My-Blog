@@ -1,18 +1,28 @@
 <md-card class="max-content-width">
- <div layout="column" layout-padding layout-align="center center">
-     <p><img src="/img/mohit.jpg" id="profile-img"></p>
-                <p id="profile-name">{{ profile.name }}<br>          
-     </p>
-                <div layout="row" layout-align="center center" layout-padding>
-                    <a ng-repeat="link in profile.links"
-                       class="fa fa-lg fa-fw profile-icon {{ link.icon }}" ng-href="{{ link.url }}"  id="icon-color"></a>
-                </div>
-            </div>
-    </md-card>
-     <md-card-content layout-align="center center" layout="column" class="middle">
-         <i class="fa fa-globe"></i> <b>Developer</b>
-         <p>I am a sophomore student pursuing bachelors in Computer Science & engineering,<br> I am an open source enthusiast who loves to play with code.I like exploring various repositories to learn new things and gain some experience. </p>
-            </md-card-content>
+    <div layout="column" layout-padding layout-align="center center">
+        <p><img src="/img/mohit.jpg" id="profile-img"></p>
+        <p id="profile-name">{{ profile.name }}<br></p>
+        <div layout="row" layout-align="center center" layout-padding>
+            <a ng-repeat="link in profile.links" 
+               class="fa fa-lg fa-fw profile-icon {{ link.icon }}" ng-href="{{ link.url }}"  id="icon-color"></a>
+        </div>
+    </div>
+</md-card>
+<md-card-content layout-align="center center" layout="column" class="middle">
+    <i class="fa fa-globe"></i> <b>Developer</b>
+    <p>I am a sophomore student pursuing bachelors in Computer Science & engineering,<br> I am an open source enthusiast who loves to play with code.I like exploring various repositories to learn new things and gain experiences. </p>
+</md-card-content>
+<md-card-content layout-align="center center" layout="column" class="middle">
+    <div class="skills"><i class="fa fa-briefcase"></i> Skills</div>
+    <table>
+        <tr ng-repeat="skillset in profile.skillsets">
+            <td class="btn btn-default"><i class="fa {{ skillset.icon }}"></i> {{ skillset.type }}</td>
+            <td layout="row" layout-wrap>
+                <span ng-repeat="skill in skillset.skills" class="skill-set"> {{ skill }}</span>
+            </td>
+        </tr>
+    </table>
+</md-card-content>
 
  
 

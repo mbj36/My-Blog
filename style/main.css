@@ -151,17 +151,38 @@ md-card
     font-weight: 400;
     background-color: #fff;
 }
+.skills
+{
+    background-color: #4C4C78;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    color: whitesmoke;
+    font-weight:500;
+}
+table
+{
+    position: relative;
+    margin: 10;
+}
+.skill-set
+{
+    word-spacing: 7;
+    padding: 3;
+}
+    
 @media only screen and (max-width:1260px)
 {
     .navbar-default
     {
-        height: 250px;
-        padding: 25px;
+        height: 40%;
+        padding: 20px;
     }
     .btn-default
     {
         position:relative;
         margin-left: 20%;
+        padding: 10px;
     }
     .timeline-design
     {
@@ -211,6 +232,18 @@ md-card
         position: relative;
         left: 0;
     }
+    md-card
+{
+    position: relative;
+    margin-left: -48px;
+    margin-right: 80px;
+}
+     md-card-content
+{
+    position: relative;
+    margin-left: -50px;
+    margin-right: 68px;
+}
         
     
     
