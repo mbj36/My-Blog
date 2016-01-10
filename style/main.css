@@ -151,6 +151,49 @@ table
     word-spacing: 7;
     padding: 3;
 }
+.about
+{
+    background-color:#fff;
+    box-shadow: 0px 1px 1px 0px;
+    max-width: 400px;
+    position: relative;
+    left: 34.5%;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: cursive;
+}
+.about2
+{
+    background-color:#fff;
+    box-shadow: 0px 0.5px 1px 0px;
+    max-width: 400px;
+    position: relative;
+    left: 35.1%;
+    font-family:'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.twitter-timeline
+{
+    position: relative;
+    margin-top:-21px !important ;
+}
+.about-md
+{
+    max-width: 400px;
+    color:whitesmoke;
+    font-size: 23px;
+    margin-left: 10%;
+   
+}
+.about-md-content
+{
+    background-color:#fff;
+    max-width: 400px;
+    box-shadow: 0px 0.5px 1px 0px; 
+    margin-left: 10%;
+    font-family:Courier, Monaco, monospace;
+    font-size: 16px;
+    padding: 70px;
+}
 @media screen and (max-width:900px)
 {
     .navbar-header
