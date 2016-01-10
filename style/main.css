@@ -173,8 +173,9 @@ table
 }
 .twitter-timeline
 {
-    position: relative;
-    margin-top:-21px !important ;
+    position: relative; 
+    margin-left: 50%;
+    margin-top: -29% !important;
 }
 .about-md
 {
@@ -272,6 +273,20 @@ table
     margin-left: -20%;
     margin-right: 28%;
 }
+    .about-md
+    {
+        width:80%;
+    }
+    .about-md-content
+    {
+        width: 80%;
+        padding: 3%;
+    }
+    .twitter-timeline
+    {
+        margin-left: 0%;
+        margin-top: 10% ! important;
+    }
         
     
     

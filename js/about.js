@@ -1,7 +1,3 @@
-/**
- * Created by praveen on 12.09.15.
- */
-
 angular.module('MyApp').controller('AboutCtrl', function($scope, $timeout, config, $http) {
     $scope.profile = null;
     $scope.ready = 0;
