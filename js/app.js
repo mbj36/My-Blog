@@ -1,6 +1,6 @@
 var app=angular.module("MyApp",['ui.bootstrap','ngRoute','angular-timeline','ngMaterial']);
 angular.module('MyApp').constant('config', {
-    baseUrl : '/',  // Baseurl to load site resources
+    baseUrl : 'http://mohitbajoria.com/',  // Baseurl to load site resources
     loadDelay : 250             // Min. delay before sending data load requests
 });
 
