@@ -222,6 +222,14 @@ table
     margin-left: 30%;
     margin-top: -38px;
 }
+.resume
+{
+ background-color: #dbdbdb;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    font-weight:500;   
+}
 @media screen and (max-width:900px)
 {
     .navbar-header
