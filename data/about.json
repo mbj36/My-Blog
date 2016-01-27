@@ -32,12 +32,17 @@
     {
       "type": "Web",
       "icon": "fa-firefox",
-      "skills": ["HTML","CSS3","AngularJS","Bootstrap","Jquery"]
+      "skills": ["HTML","CSS3","Jquery"]
+    },
+    {
+        "type":"Frameworks",
+        "icon":"fa-clone",
+        "skills":["AngularJS","Bootstrap","Flask","Django(novice)"]
     },
     {
       "type": "Databases",
       "icon": "fa-database",
-      "skills": ["SQL"]
+      "skills": ["SQL","SQLAlchemy(beginner)"]
     },
     {
       "type": "Tools & Packages",
