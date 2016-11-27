@@ -22,13 +22,13 @@ app.config(function($routeProvider)
         templateUrl:'view/blog.html',
         controller:'BlogCtrl'
     })
-    .when('/academics',
+    .when('/experience',
           {
-        templateUrl:'view/academics.html',
-        controller:'AcadCtrl'
+        templateUrl:'view/experience.html',
+        controller:'ExpCtrl'
     })
     .otherwise({
-        templateUrl:'view/intro.html',
+      templateUrl:'view/intro.html',
     });
 });
 app.controller("AppCtrl",function($scope)
@@ -51,8 +51,8 @@ app.controller("AppCtrl",function($scope)
 	},
 	{
 		class:"fa fa-graduation-cap",
-		text:"Academics",
-		url:"#/academics"
+		text:"Work",
+		url:"#/experience"
 	}
 	]
 });

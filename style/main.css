@@ -10,11 +10,39 @@ body, html
     position: relative;
     font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
+h2
+{
+  color: #fff;
+}
 .navbar-default
 {
    background-color: #4C4C78;
    height: 80px;
    border-bottom-color: #fff;
+}
+#loading{
+    margin: 100px 0px;
+    min-height: 100px;
+}
+#loading-cog1{
+    font-size: 2.5em;
+    position: relative;
+    left: 10px;
+    color: #F34235;
+}
+#loading-cog2{
+    font-size: 3em;
+    position: relative;
+    top: 20px;
+    color: #02A8F3;
+    -webkit-animation: fa-spin 2s infinite linear reverse;
+    animation: fa-spin 2s infinite linear reverse;
+}
+#loading-cog3{
+    font-size: 2.5em;
+    position: relative;
+    left: -10px;
+    color: #FEC006;
 }
 .btn-default
 {
@@ -58,6 +86,16 @@ a:hover
 {
     text-align: center;
 }
+.timeline-heading
+{
+  font-size: 21px;
+  margin-left: 7%;
+}
+.timeline-heading1
+{
+  font-size: 16px;
+  margin-left: 17%;
+}
 .timeline-design
 {
     line-height:25px;
@@ -95,18 +133,22 @@ a:hover
 {
     max-width: 700px;
     position: relative;
-    left: 24%;   
+    left: 24%;
 }
 md-card
 {
-    background-color:#4C4C78 !important;
+    background-color:#2B3840 !important;
+}
+md-toolbar
+{
+    background-color:#2B3840 !important;
 }
 #profile-name
 {
     font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
     font-weight: 500;
     color: whitesmoke;
-    
+
 }
 #profile-img {
      width: 180px;
@@ -132,6 +174,10 @@ md-card
     font-weight: 400;
     background-color: #fff;
 }
+.md-button *
+{
+  color: #fff;
+}
 .skills
 {
     background-color: #4C4C78;
@@ -141,15 +187,14 @@ md-card
     color: whitesmoke;
     font-weight:500;
 }
-table
+.bordered
 {
-    position: relative;
-    margin: 10;
+    border-bottom: 1px solid #D3D3D3;
 }
 .skill-set
 {
-    word-spacing: 7;
-    padding: 3;
+    word-spacing: 4;
+    padding: 3px;
 }
 .about
 {
@@ -173,7 +218,7 @@ table
 }
 .twitter-timeline
 {
-    position: relative; 
+    position: relative;
     margin-left: 50%;
     margin-top: -29% !important;
 }
@@ -183,13 +228,13 @@ table
     color:whitesmoke;
     font-size: 23px;
     margin-left: 10%;
-   
+
 }
 .about-md-content
 {
     background-color:#fff;
     max-width: 400px;
-    box-shadow: 0px 0.5px 1px 0px; 
+    box-shadow: 0px 0.5px 1px 0px;
     margin-left: 10%;
     font-family:Courier, Monaco, monospace;
     font-size: 16px;
@@ -216,7 +261,7 @@ table
 }
 .date
 {
- font-size: 15px;    
+ font-size: 15px;
  position: absolute;
     padding: 10px;
     margin-left: 30%;
@@ -228,7 +273,7 @@ table
     width: 100%;
     padding: 1%;
     text-align: center;
-    font-weight:500;   
+    font-weight:500;
 }
 @media screen and (max-width:900px)
 {
@@ -246,13 +291,13 @@ table
         position:relative;
         padding: 8px;
         margin-left: 2;
-        
+
     }
     .timeline-design
     {
         position:relative;
         margin-left: -40px;
-        
+
     }
     .author
     {
@@ -268,11 +313,7 @@ table
         left: 26px;
         font-family: cursive;
     }
-    .timeline-heading
-    {
-        position: relative;
-        left: -30px;
-    }
+
     .tech
     {
         position: relative;
@@ -288,7 +329,7 @@ table
     {
         position: relative;
         right:16%;
-        
+
     }
     .toolbar-design
     {
@@ -338,15 +379,15 @@ table
         margin-left: 1%;
         margin-right: 2%;
         padding: 5px;
-        
+
     }
     #image
     {
         height: 250px;
         width: 250px;
     }
-    
-    
-    
-    
+
+
+
+
 }

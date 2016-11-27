@@ -2,6 +2,10 @@
   "name": "Mohit Kumar Bajoria",
   "links": [
     {
+      "icon": "fa-github-square",
+      "url": "https://github.com/mbj36"
+    },
+    {
       "icon": "fa-facebook-square",
       "url": "https://www.facebook.com/mohitbajoria36"
     },
@@ -11,43 +15,39 @@
     },
     {
       "icon": "fa-linkedin-square",
-      "url": "https://www.linkedin.com/profile/view?id=AAIAABisFSABrM3ckklfO1sEI-cOkKgLlPxlXEM&trk=nav_responsive_tab_profile_pic"
-    },
-    {
-      "icon": "fa-github-square",
-      "url": "https://github.com/mbj36"
+      "url": "https://www.linkedin.com/in/mbj36"
     }
   ],
     "skillsets": [
     {
       "type": "Platforms",
       "icon": "fa-rocket",
-      "skills": ["Windows"]
+      "skills": ["Linux", "Windows"]
     },
     {
       "type": "Languages",
       "icon": "fa-language",
-      "skills": ["C","C++","Python","Javascript"]
+      "skills": ["C","Python","Javascript"]
     },
     {
-      "type": "Web",
+      "type": "Web and App",
       "icon": "fa-firefox",
-      "skills": ["HTML","CSS3","Jquery"]
+      "skills": ["HTML","CSS3","Jquery", "Ionic 2", "Material", "PWAapps"]
     },
     {
         "type":"Frameworks",
         "icon":"fa-clone",
-        "skills":["AngularJS","Bootstrap","Flask","Django(novice)"]
+        "skills":["AngularJS","Bootstrap","Flask"]
     },
     {
       "type": "Databases",
       "icon": "fa-database",
-      "skills": ["SQL","SQLAlchemy(beginner)"]
+      "skills": ["MySQL"]
     },
     {
-      "type": "Tools & Packages",
+      "type": "Tools",
       "icon": "fa-cogs",
-      "skills": ["Git","Jekyll","Brackets","SublimeText","Codeblocks"]
+      "skills": ["Git","Vim", "Atom"]
     }
 ]
 }

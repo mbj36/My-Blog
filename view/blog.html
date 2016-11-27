@@ -1,68 +1,9 @@
-<md-card layout="row" layout-align="center center" class="blog-md">
-    #1 Get Started with AngularJS
-    <span class="date"><i class="fa fa-calendar"></i> 11th Jan 2016</span>
+<md-card class="max-content-width">
+  <h2 align="center">Posts</h2>
 </md-card>
-<md-card-content layout="column" layout-align="center center" class="blog-md-card">
-    If you haven’t tried Angular yet, you’re missing out on why people say JavaScript is the most flexible language in the world.
-<br>
-Angular is the only framework that doesn’t make MVC seem like putting lipstick on a pig.
-    <code>Personally I am in love with Angular</code>
-    <h1>Developed by Google</h1>
-    Angular is built and maintained by dedicated Google engineers.
-    <br>
-    <h3>Getting started in Minutes</h3>
-    <p>
-        Add the <code>ng-app</code> directive to the <code>&lt;html&gt;</code> tag so Angular knows to run on the page:</p>
-    
-    <pre class="brush: html noskimlinks noskimwords">&lt;html lang="en" ng-app&gt;</pre>
-    <p>
-Add the Angular <code>&lt;script&gt;</code> tag to the end of your <code>&lt;head&gt;</code> tag:
-    </p>
-    <pre class="brush: html noskimlinks noskimwords">&lt;head&gt;
-...meta and stylesheet tags...
- &lt;script src="lib/angular/angular.js"&gt;&lt;/script&gt;</pre>
-    <p>Add regular HTML. AngularJS directives are accessed through HTML attributes, while expressions are evaluated with double-bracket notation:
-</p>
-    <pre class="brush: html noskimlinks noskimwords">&lt;body ng-controller="ActivitiesListCtrl"&gt;
-  &lt;h1&gt;Today's activities&lt;/h1&gt;
-  &lt;ul&gt;
-   &lt;li ng-repeat="activity in activities"&gt;
-     {{activity.name}}
-   &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
-<p>The <code>ng-controller</code> directive sets up a namespace, where we can place our Angular JavaScript to manipulate the data and evaluate the expressions in our HTML. <code>ng-repeat</code> is an Angular repeater object, which instructs Angular to keep creating list elements as long as we have activities to display, and use this <code>&lt;li&gt;</code> element as a template for how we want all of them to look.
-    </p>
-    <p>
-    When you want to grab something from Angular, fetch your data with a JavaScript file containing a function whose name corresponds to the controller you've outlined in your HTML:</p>
-<pre class="brush: noskimlinks noskimwords">function ActivitiesListCtrl($scope) {
-  $scope.activities = [
-    { "name": "Wake up" },
-    { "name": "Brush teeth" },
-    { "name": "Shower" },
-    { "name": "Have breakfast" },
-    { "name": "Go to work" },
-    { "name": "Write a Nettuts article" },
-    { "name": "Go to the gym" },
-    { "name": "Meet friends" },
-    { "name": "Go to bed" }
-  ];
- }</pre>
-<p>While this application is complete, it's not overly practical. Most web applications house lots of data stored on remote servers. If you've got your data stored on a server somewhere, we can easily replace the array with a call from Angular's AJAX API:</p>
-    <pre class="brush: noskimlinks noskimwords">function ActivitiesListCtrl($scope) {
-  $http.get('activities/list.json').success(function (data) {
-    $scope.activities = data;
-  }
-}</pre>
-
-<p>We've simply replaced the native JavaScript array object of hashes with a specialized HTTP GET function, provided by the Angular API. We pass in the name of the file that we watch to fetch from the server (in this case, a JSON file of activities) and we are returned a promise from Angular, much in the same way that the promise pattern works in jQuery.</p>
-    <img src="/img/blog/U87M5vo.png" id="image">
-
-    <h2>Here are some links which would help you excel in AngularJS
-    </h2>
-    <a href="https://github.com/jmcunningham/AngularJS-Learning"><i class="fa fa-link"></i> AngularJS - Most starred github repository</a>
-    <a href="https://www.codecademy.com/learn/learn-angularjs"><i class="fa fa-link"></i> AngularJS - Codeacademy</a>
-    <a href="http://www.w3schools.com/angular/"><i class="fa fa-link"></i> A very basic tutorial for AngularJS - W3 Schools</a>
-    </md-card-content>
- 
+<md-card-content layout="column" layout-align="center center" class="middle">
+  <ol>
+    <li ng-repeat="bl in blog">
+  {{ bl.postheading }}</li>
+</ol>
+  </md-card-content

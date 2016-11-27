@@ -1,0 +1,19 @@
+
+<ng-include src="'view/loading.html'"></ng-include>
+
+<div class="container" ng-show="ready">
+    <ul class="timeline">
+        <li ng-repeat="study in studies" class="timeline-{{ study.timeline }}">
+            <div class="timeline-badge">{{study.year}}</div>
+            <div class="timeline-panel">
+              <div>
+                <img src="{{study.img}}" height="70px" width="70px">
+                <span class="timeline-heading"><b>{{study.heading}}</b></span><br>
+                <span class="timeline-heading1"><i class="fa fa-user"></i> {{study.description}}</span><br>
+                  <span class="timeline-heading1"><i class="fa fa-clock-o"></i> {{study.duration}}</span>
+              </div>
+            </div>
+            </div>
+          </li>
+        </ul>
+</div>

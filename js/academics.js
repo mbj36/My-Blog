@@ -1,4 +1,4 @@
-angular.module('MyApp').controller('AcadCtrl', function($scope, $timeout, config, $http) {
+angular.module('MyApp').controller('ExpCtrl', function($scope, $timeout, config, $http) {
     $scope.studies = null;
     $scope.ready = 0;
 

@@ -1,4 +1,6 @@
-<div class="container">
+<ng-include src="'view/loading.html'"></ng-include>
+
+<div class="container" ng-show="ready">
     <ul class="timeline">
         <li ng-repeat="project in projects" class="timeline-{{project.timeline }}">
             <div class="timeline-badge">{{project.year}}</div>
@@ -25,4 +27,3 @@
 </div>
     </ul>
 </div>
-

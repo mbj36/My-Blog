@@ -1,26 +1,34 @@
 [
   {
-    "year": "Now",
-    "degree": "Bachelors in Computer Science & Engineering",
-    "school": "Shri Mata Vaishno Devi University",
-    "place" : "Jammu, India",
-    "duration" : "August 2014 - Present",
-    "timeline" : " "  
+    "img"    : "img/gci.png",
+    "heading": "Google Code-In",
+    "year"   : "2016",
+    "description":"Mentor, Google Code-In for Mifos",
+    "duration":"Novemver 2016 - Present",
+    "timeline" : " "
   },
   {
-    "year": "2014",
-    "degree": "Higher Secondary School",
-    "school": "Adwaita Mission High School",
-    "place" : "Bhagalpur, India",
-    "duration" : "2012 - 2014",
-    "timeline" :"inverted"  
+    "img"    : "img/gsoc.jpg",
+    "heading": "Google Summer of Code",
+    "year"   : "2016",
+    "description":"Contract Developer, Mifos Initiative",
+    "duration":"April 2016 - August 2016",
+    "timeline" : "inverted"
   },
   {
-    "year": "2012",
-    "degree": "Secondary School",
-    "school": "Saint Paul's School",
-    "place" : "Bhagalpur, India",
-    "duration" : "2000 - 2012",
-    "timeline" : " "  
+    "img"    : "img/cout.jpg",
+    "heading": "CoutLoot",
+    "year"   : "2016",
+    "description":"Front End Intern, CoutLoot",
+    "duration":"Feb 2016 - March 2016",
+    "timeline" : ""
+  },
+  {
+    "img"    : "img/smvdu.png",
+    "heading": "Co-ordinator, Code-Club",
+    "year"   : "2015",
+    "description":"Tutor, Code-Club SMVDU",
+    "duration":"Aug 2015 - Present",
+    "timeline" : "inverted"
   }
 ]

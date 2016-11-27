@@ -1,4 +1,45 @@
-[
+[  {
+    "img"    : "img/chess.jpg",
+    "heading": "Players",
+    "year"   : "2016",
+    "description":"Developed a online three day event with two of the other developers where individual could buy or sell the shares",
+    "tech"   :["Flask", "MongoDB", "Bootstrap"],
+    "links": [
+      {
+        "iconClass": "fa-github",
+        "url": "https://github.com/Pulkit07/Players"
+      }
+    ],
+    "timeline" : " "
+  },
+  {
+    "img"    : "img/mifos.jpg",
+    "heading": "Browser Based Offline Access",
+    "year"   : "2016",
+    "description":"Developed an offline community app as a GSoC project  with PWA technologies",
+    "tech"   :["Angular JS", "Service workers", "IndexedDB","Git"],
+    "links": [
+      {
+        "iconClass": "fa-github",
+        "url": "https://github.com/mbj36/community-app/tree/offline"
+      }
+    ],
+    "timeline" : "inverted"
+  },
+   {
+    "img"    : "img/ted.jpg",
+    "heading": "TEDx-SMVDU",
+    "year"   : "2016",
+    "description":"Web app for the event TEDx-SMVDU",
+    "tech"   :["Basic Front End technologies"],
+    "links": [
+      {
+        "iconClass": "fa-github",
+        "url": "https://github.com/mbj36/tedx-smvdu"
+      }
+    ],
+    "timeline" : " "
+  },
   {
     "img"    : "img/sac.jpg",
     "heading": "Students Affairs Council (SAC) Website",
@@ -10,11 +51,11 @@
         "iconClass": "fa-github",
         "url": "https://github.com/mbj36/sac-website"
       }
-    ],  
-    "timeline" : " "  
+    ],
+    "timeline" : "inverted"
   },
   {
-    "img"    :"img/exam.jpeg", 
+    "img"    :"img/exam.jpeg",
     "heading": "Exam-Baba",
     "year"   : "2015",
     "description":"Ex@m baba is for the B.Tech student of the shri mata vaishno devi university.It contains Previous Year Question papers.",
@@ -28,14 +69,14 @@
             "iconClass":"fa-globe",
             "url":"http://exambaba.github.io/"
         }
-    ],  
-    "timeline" :"inverted"  
+    ],
+    "timeline" :""
   },
   {
-    "img"    :"img/favicon.ico",  
+    "img"    :"img/favicon.ico",
     "heading": "Software Freedom Day (SFD) Website",
     "year"   : "2015",
-    "description":"Software Freedom Day is an technical event celebrated yearly at SMVDU", 
+    "description":"Software Freedom Day is an technical event celebrated yearly at SMVDU",
     "tech"   :["AngularJS","Web","Bootstrap","HTML","CSS"],
     "links": [
       {
@@ -46,7 +87,7 @@
             "iconClass":"fa-globe",
             "url":"http://sfd.smvdu.net.in/#/"
         }
-    ],    
-    "timeline" : ""  
+    ],
+    "timeline" : "inverted"
   }
 ]
