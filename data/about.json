@@ -10,8 +10,8 @@
       "url": "https://www.facebook.com/mohitbajoria36"
     },
     {
-      "icon": "fa-google-plus-square",
-      "url": "https://plus.google.com/102691671380822773168/posts"
+      "icon": "fa-twitter-square",
+      "url": "https://www.twitter.com/mbj36"
     },
     {
       "icon": "fa-linkedin-square",
@@ -27,7 +27,7 @@
     {
       "type": "Languages",
       "icon": "fa-language",
-      "skills": ["C","Python","Javascript"]
+      "skills": ["Javascript", "Python"]
     },
     {
       "type": "Web and App",
@@ -37,7 +37,7 @@
     {
         "type":"Frameworks",
         "icon":"fa-clone",
-        "skills":["AngularJS","Bootstrap","Flask"]
+        "skills":["AngularJS","Bootstrap","Flask","EmberJS"]
     },
     {
       "type": "Databases",

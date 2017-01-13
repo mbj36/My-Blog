@@ -2,8 +2,8 @@
   <h2 align="center">Posts</h2>
 </md-card>
 <md-card-content layout="column" layout-align="center center" class="middle">
-  <ol>
+  <ul>
     <li ng-repeat="bl in blog">
-  {{ bl.postheading }}</li>
-</ol>
+  <a href="{{ bl.link }}" class="blog_font"> {{ bl.postheading }} </a></li>
+</ul>
   </md-card-content
