@@ -41,8 +41,8 @@
         <md-toolbar layout="column" layout-align="center center">
                     <div layout="row" layout-align="center center" layout-wrap>
                         <span ng-repeat="items in NavItems">
-                            <md-button align="center">
-                                <i class="{{items.class}} "></i><a ng-href="{{ items.url }}">  <b>{{ items.text }}</b>  </a>
+                            <md-button align="center" ng-href="{{ items.url }}">
+                                <i class="{{items.class}} "></i> <b>{{ items.text }}</b>  
                             </md-button>
                         </span>
                     </div>
